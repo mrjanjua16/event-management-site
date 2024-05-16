@@ -1,3 +1,6 @@
+@import '../variables.scss';
+@import '../media-queries';
+
 .main-nav {
 	background: $light;
 
@@ -186,67 +189,5 @@
 
 	.dropright .dropdown-toggle::after {
 		content: "\f105";
-		margin-left: 7px;
-	}
-
-	.dropdown-submenu:hover>.dropdown-toggle,
-	.dropdown-submenu.active>.dropdown-toggle {
-		color: $primary-color;
-	}
-
-	.ticket {
-		background: $primary-color;
-		display: block;
-		padding: 34px 32px;
-
-		@include desktop-nav {
-			padding: 34px 26px;
-		}
-
-		@include large-desktop {
-			padding: 23px 26px;
-		}
-
-		@include desktop-sm {
-			text-align: center;
-		}
-
-		img {
-			margin-right: 25px;
-
-			@include large-desktop {
-				display: none;
-			}
-		}
-
-		span {
-			color: $light;
-			font-size: 1.125rem;
-			text-transform: uppercase;
-			font-family: $secondary-font;
-			border-left: 1px solid #ffa366;
-			padding-left: 24px;
-
-			@include large-desktop {
-				padding-left: 0;
-				font-size: 1rem;
-				border-left: none;
-			}
-		}
 	}
 }
-
-// bootstrap override
-.navbar-toggler:focus,
-.navbar-toggler:hover {
-	outline: none;
-}
-
-// Nav Scroll
-// .navbar-collapse{
-// 	&.show{
-// 		@include desktop{
-// 			overflow-y: scroll;
-// 		}
-// 	}
-// }

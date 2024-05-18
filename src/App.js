@@ -10,6 +10,7 @@ import BuyTicket from './components/BuyTicket';
 import Sponsors from './components/Sponsors';
 import EventNews from './components/EventNew';
 import Newsletter from './components/Newsletter';
+import Map from './components/Map';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Sponsors />
       <EventNews />
       <Newsletter />
+      <Map />
     </div>
   );
 }

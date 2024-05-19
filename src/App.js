@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home1 from './pages/Home1';
 import Home2 from './pages/Home2';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (

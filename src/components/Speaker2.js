@@ -1,62 +1,119 @@
 import React from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import SpeakerImage1 from "../images/speakers/speaker-full-two.jpg";
+import SpeakerImage1 from "../images/speakers/speaker-full-one.jpg";
 import SpeakerImage2 from "../images/speakers/speaker-full-two.jpg";
 import "../scss/style.scss";
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure Font Awesome CSS is imported
+import { PrevArrow, NextArrow } from "../components/SliderArrows"; // Import custom arrow components
 
 export default function Speaker2() {
   const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear"
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    prevArrow: <PrevArrow />, // Use custom previous arrow
+    nextArrow: <NextArrow />  // Use custom next arrow
   };
 
   return (
-      <div className="slider-container">
-        <section class="speakers-full-width">
-	      <div class="container-fluid p-0">
-        <div class="row">
-			  <div class="col-12">
-        <Slider {...settings}>
-        <div class="speaker-slider slick-initialized slick-slider">
-        <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style={{}}>Previous</button>
-          <div class="slick-list draggable" style="padding: 0px 50px;">
-					<div class="slick-track" style="opacity: 1; width: 10728px; transform: translate3d(-3129px, 0px, 0px);">
-					<div class="speaker-image slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style="width: 447px;">
-          <div>
-            <h3>1</h3>
+    <div className="slider-container">
+      <Slider {...settings}>
+        <div className="slick-slide">
+          <img src={SpeakerImage1} alt="speaker" className="img-fluid" />
+          <div className="primary-overlay text-center">
+            <h5>GEORGE G. HERNANDEZ</h5>
+            <p>CEO Rancom Motor</p>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <i className="fa fa-facebook"></i>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          </div>
-          </div>
-          </div>
-          <button class="slick-next slick-arrow" aria-label="Next" type="button" style={{}}>Next</button>
-          </div>
-        </Slider>
         </div>
+        <div className="slick-slide">
+          <img src={SpeakerImage2} alt="speaker" className="img-fluid" />
+          <div className="primary-overlay text-center">
+            <h5>JANE DOE</h5>
+            <p>CTO Tech Innovations</p>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <i className="fa fa-facebook"></i>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div className="slick-slide">
+          <img src={SpeakerImage1} alt="speaker" className="img-fluid" />
+          <div className="primary-overlay text-center">
+            <h5>JOHN SMITH</h5>
+            <p>CMO Creative Agency</p>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <i className="fa fa-facebook"></i>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        </section>
-      </div>
+        <div className="slick-slide">
+          <img src={SpeakerImage2} alt="speaker" className="img-fluid" />
+          <div className="primary-overlay text-center">
+            <h5>ANNA BROWN</h5>
+            <p>COO Business Corp</p>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <i className="fa fa-facebook"></i>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/" tabIndex="-1">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* Add more slides as needed */}
+      </Slider>
+    </div>
   );
 }

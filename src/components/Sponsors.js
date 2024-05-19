@@ -25,28 +25,28 @@ export default function Sponsors()
 					<ul class="list-inline sponsors-list">
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
@@ -60,21 +60,21 @@ export default function Sponsors()
 					<ul class="list-inline sponsors-list">
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="#">
+								<a href="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
 								</a>
 							</div>
@@ -82,7 +82,7 @@ export default function Sponsors()
 					</ul>
 				</div>
 				<div class="sponsor-btn text-center">
-					<a href="#" class="btn btn-main-md">Become a sponsor</a>
+					<a href="/" class="btn btn-main-md">Become a sponsor</a>
 				</div>
 			</div>
 		</div>

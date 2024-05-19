@@ -4,6 +4,7 @@ import '../Plugins/bootstrap/bootstrap.min.css';
 import logo from '../images/logo.png';
 import ticket from '../images/icon/ticket.png';
 import '../scss/button.scss';
+import { Link, Router } from 'react-router-dom';
 
 
 export default function Navbar()
@@ -31,8 +32,8 @@ export default function Navbar()
           // Dropdown list 
           }
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="index.html">Homepage</a></li>
-            <li><a class="dropdown-item" href="homepage-two.html">Homepage 2</a></li>
+            <li><Link class="dropdown-item" to="/">Homepage</Link></li>
+            <li><Link class="dropdown-item" to="/Event">Homepage 2</Link></li>
           </ul>
         </li>
         <li class="nav-item">

@@ -26,10 +26,10 @@ export default function About1()
 					</div>
 					<ul class="list-inline">
 						<li class="list-inline-item">
-							<a href="#" class="btn btn-main-md">Buy ticket</a>
+							<a href="/" class="btn btn-main-md">Buy ticket</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="#" class="btn btn-transparent-md">Read more</a>
+							<a href="/" class="btn btn-transparent-md">Read more</a>
 						</li>
 					</ul>
 				</div>

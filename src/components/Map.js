@@ -15,7 +15,7 @@ export default function Map()
 			<li><i class="fa fa-home"></i><span>Street Address, Location, City, Country.</span></li>
 			<li><i class="fa fa-phone"></i><span>[00] 000 000 000</span></li>
 		</ul>
-		<a href="#" class="btn btn-white-md">Get Direction</a>
+		<a href="/" class="btn btn-white-md">Get Direction</a>
 	    </div>
         </section>
         </>

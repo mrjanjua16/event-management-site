@@ -1,0 +1,36 @@
+.map {
+    position: relative;
+    overflow: hidden;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.gm-style {
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+}
+
+.address-block {
+    /* styles for the address block */
+}
+
+.address-list {
+    /* styles for the address list */
+}
+
+.btn-white-md {
+    /* styles for the get direction button */
+}

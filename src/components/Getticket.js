@@ -36,7 +36,7 @@ export default function Getticket()
 						</ul>
 					</div>
 					<div class="pricing-footer text-center">
-						<a href="#" class="btn btn-transparent-md">Buy a ticket</a>
+						<a href="/" class="btn btn-transparent-md">Buy a ticket</a>
 					</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ export default function Getticket()
 						</ul>
 					</div>
 					<div class="pricing-footer text-center">
-						<a href="#" class="btn btn-main-md">Buy a ticket</a>
+						<a href="/" class="btn btn-main-md">Buy a ticket</a>
 					</div>
 				</div>
 			</div>
@@ -84,7 +84,7 @@ export default function Getticket()
 						</ul>
 					</div>
 					<div class="pricing-footer text-center">
-						<a href="#" class="btn btn-transparent-md">Buy a ticket</a>
+						<a href="/" class="btn btn-transparent-md">Buy a ticket</a>
 					</div>
 				</div>
 			</div>

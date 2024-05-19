@@ -19,7 +19,7 @@ export default function EventNews()
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<a href="/">
 							<img src={PostThumb1} alt="post-image" class="img-fluid" />
 						</a>
 					</div>
@@ -34,15 +34,15 @@ export default function EventNews()
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<a href="/">Admin</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<a href="/">350</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<a href="/">30</a>
 								</li>
 							</ul>
 						</div>
@@ -67,15 +67,15 @@ export default function EventNews()
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<a href="/">Admin</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<a href="/">350</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<a href="/">30</a>
 								</li>
 							</ul>
 						</div>
@@ -100,15 +100,15 @@ export default function EventNews()
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<a href="/">Admin</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<a href="/">350</a>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<a href="/">30</a>
 								</li>
 							</ul>
 						</div>

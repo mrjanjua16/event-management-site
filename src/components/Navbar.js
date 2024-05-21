@@ -33,13 +33,13 @@ export default function Navbar()
           }
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/">Homepage</Link></li>
-            <li><Link class="dropdown-item" to="/Event">Homepage 2</Link></li>
+            <li><Link class="dropdown-item" to="/Home2">Homepage 2</Link></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="speakers.html">Speakers
+          <Link class="nav-link" to="/Speaker">Speakers
             <span>/</span>
-          </a>
+          </Link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="#!" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i><span>/</span></a>

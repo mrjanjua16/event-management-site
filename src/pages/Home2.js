@@ -7,6 +7,9 @@ import Gallery from "../components/Home2/Gallery";
 import MapView from "../components/Home2/MapView";
 import TicketFeature from "../components/Home2/TicketFeature";
 import Speaker2 from "../components/Speaker2";
+import Map from "../components/Map";
+import Footer from "../components/Footer";
+import FooterMain from "../components/FooterMain";
 
 
 export default function Home2()
@@ -22,6 +25,8 @@ export default function Home2()
             <Gallery />
             <Getticket />
             <MapView />
+            <Footer />
+            <FooterMain />
         </>
 );
 }

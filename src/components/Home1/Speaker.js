@@ -1,16 +1,16 @@
-import '../scss/style.scss';
-import speaker1 from '../images/speakers/speaker-one.jpg';
-import speaker2 from '../images/speakers/speaker-two.jpg';
-import speaker3 from '../images/speakers/speaker-three.jpg';
-import speaker4 from '../images/speakers/speaker-four.jpg';
-import speaker5 from '../images/speakers/speaker-five.jpg';
-import speaker6 from '../images/speakers/speaker-six.jpg';
+import '../../scss/style.scss';
+import speaker1 from '../../images/speakers/speaker-one.jpg';
+import speaker2 from '../../images/speakers/speaker-two.jpg';
+import speaker3 from '../../images/speakers/speaker-three.jpg';
+import speaker4 from '../../images/speakers/speaker-four.jpg';
+import speaker5 from '../../images/speakers/speaker-five.jpg';
+import speaker6 from '../../images/speakers/speaker-six.jpg';
 
 
 export default function Speaker(){
     return(
         <>
-            <section class="section speakers bg-speaker overlay-lighter">
+<section class="section speakers bg-speaker overlay-lighter">
 	    <div class="container">
 		<div class="row">
 			<div class="col-12">

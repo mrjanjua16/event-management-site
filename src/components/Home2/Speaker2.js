@@ -1,11 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
-import SpeakerImage1 from "../images/speakers/speaker-full-one.jpg";
-import SpeakerImage2 from "../images/speakers/speaker-full-two.jpg";
-import "../scss/style.scss";
+import SpeakerImage1 from "../../images/speakers/speaker-full-one.jpg";
+import SpeakerImage2 from "../../images/speakers/speaker-full-two.jpg";
+import "../../scss/style.scss";
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure Font Awesome CSS is imported
-import { PrevArrow, NextArrow } from "../components/SliderArrows"; // Import custom arrow components
+import { PrevArrow, NextArrow } from "./SliderArrows"; // Import custom arrow components
 
 export default function Speaker2() {
   const settings = {

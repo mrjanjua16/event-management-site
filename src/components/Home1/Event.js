@@ -1,5 +1,5 @@
-import '../scss/style.scss';
-import thumb1 from '../images/speakers/speaker-thumb-one.jpg';
+import '../../scss/style.scss';
+import thumb1 from '../../images/speakers/speaker-thumb-one.jpg';
 
 export default function Event()
 {

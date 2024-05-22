@@ -1,6 +1,6 @@
-import PtSponsor1 from "../images/sponsors/pt-spon-one.png";
-import GlSponsor1 from '../images/sponsors/gl-spon-one.png';
-import "../scss/style.scss";
+import PtSponsor1 from "../../images/sponsors/pt-spon-one.png";
+import GlSponsor1 from '../../images/sponsors/gl-spon-one.png';
+import "../../scss/style.scss";
 
 export default function Sponsors()
 {

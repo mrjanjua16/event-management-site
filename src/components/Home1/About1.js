@@ -1,5 +1,5 @@
-import '../scss/style.scss';
-import featuredSpeaker1 from '../images/speakers/featured-speaker.jpg';
+import '../../scss/style.scss';
+import featuredSpeaker1 from '../../images/speakers/featured-speaker.jpg';
 
 export default function About1()
 {

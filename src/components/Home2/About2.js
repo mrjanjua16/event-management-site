@@ -1,5 +1,5 @@
-import '../scss/style.scss';
-import Speaker2 from "../images/speakers/featured-speaker-two.jpg";
+import '../../scss/style.scss';
+import Speaker2 from "../../images/speakers/featured-speaker-two.jpg";
 import { Link } from 'react-router-dom';
 
 export default function About2()

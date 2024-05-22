@@ -1,5 +1,5 @@
-import PostThumb1 from "../images/news/post-thumb-one.jpg";
-import "../scss/style.scss";
+import PostThumb1 from "../../images/news/post-thumb-one.jpg";
+import "../../scss/style.scss";
 
 export default function EventNews()
 {

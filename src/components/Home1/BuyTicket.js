@@ -1,5 +1,5 @@
-import '../scss/style.scss';
-import SpeakerTicket from '../images/speakers/speaker-ticket.png';
+import '../../scss/style.scss';
+import SpeakerTicket from '../../images/speakers/speaker-ticket.png';
 
 export default function BuyTicket()
 {

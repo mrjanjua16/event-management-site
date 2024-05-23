@@ -8,6 +8,12 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import About from './pages/About';
 import SpeakerDetail from './pages/SpeakerDetail';
+import Gallery1 from './pages/Gallery1';
+import Gallery2 from './pages/Gallery2';
+import Testimonal from './pages/Testimonal';
+import Price from './pages/Price';
+import FAQ from './pages/FAQ';
+import Error from './pages/Error';
 
 function App() {
   return (
@@ -29,6 +35,18 @@ function App() {
       <Route path="/About" element={<About />} />
 
       <Route path="/SpeakerDetail" element={<SpeakerDetail />} />
+
+      <Route path="/GalleryDetail" element={<Gallery1 />} />
+      
+      <Route path="/GalleryDetail2" element={<Gallery2 />} />
+
+      <Route path='/Testimonal' element={<Testimonal />} />
+
+      <Route path='/Price' element={<Price />} />
+
+      <Route path='/FAQ' element={<FAQ />} />
+
+      <Route path='/Error' element={<Error />} />
 
       {/* Catch-all Route for unmatched paths (optional) */}
       <Route path="*" element={<Navigate to="/" replace />} />

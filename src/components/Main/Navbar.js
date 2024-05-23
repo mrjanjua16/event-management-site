@@ -42,26 +42,26 @@ export default function Navbar()
           </Link>
         </li>
         <li class="nav-item dropdown">
-          <Link class="nav-link" to="/" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i><span>/</span></Link>
+          <Link class="nav-link" to="/About" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i><span>/</span></Link>
           {
           //<!-- Dropdown list -->
             }
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/About">About Us</Link></li>
             <li><Link class="dropdown-item" to="/SpeakerDetail">Single Speaker</Link></li>
-            <li><Link class="dropdown-item" to="gallery.html">Gallery</Link></li>
-            <li><Link class="dropdown-item" to="gallery-two.html">Gallery-02</Link></li>
-            <li><Link class="dropdown-item" to="testimonial.html">Testimonial</Link></li>
-            <li><Link class="dropdown-item" to="pricing.html">Pricing</Link></li>
-            <li><Link class="dropdown-item" to="FAQ.html">FAQ</Link></li>
-            <li><Link class="dropdown-item" to="404.html">404</Link></li>
+            <li><Link class="dropdown-item" to="/GalleryDetail">Gallery</Link></li>
+            <li><Link class="dropdown-item" to="/GalleryDetail2">Gallery-02</Link></li>
+            <li><Link class="dropdown-item" to="/Testimonal">Testimonial</Link></li>
+            <li><Link class="dropdown-item" to="/Price">Pricing</Link></li>
+            <li><Link class="dropdown-item" to="/FAQ">FAQ</Link></li>
+            <li><Link class="dropdown-item" to="/Error">404</Link></li>
                     
             <li class="dropdown dropdown-submenu dropright">
               <Link class="dropdown-item dropdown-toggle" to="/" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
     
               <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><Link class="dropdown-item" to="index.html">Submenu 01</Link></li>
-                <li><Link class="dropdown-item" to="index.html">Submenu 02</Link></li>
+                <li><Link class="dropdown-item" to="/">Submenu 01</Link></li>
+                <li><Link class="dropdown-item" to="/Home2">Submenu 02</Link></li>
               </ul>
             </li>
           </ul>

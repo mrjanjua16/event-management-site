@@ -1,17 +1,21 @@
 import React from "react";
-import SpeakerDetailSection from "../components/SpeakerDetail/SpeakerDetailSection";
 import SpeakerDesSection from "../components/SpeakerDetail/SpeakerDesSection";
 import Newsletter from "../components/Home1/Newsletter";
 import Footer from "../components/Main/Footer";
 import FooterMain from "../components/Main/FooterMain";
 import Map from "../components/Home1/Map";
-
+import PageAbout from "../components/Main/PageAbout";
 
 export default function SpeakerDetail()
 {
-    return(
-        <>
-        <SpeakerDetailSection />
+    const sectionItem = [
+        { label: "HOME", href: "index.html" },
+        { label: "SPEAKER DETAIL", active: true }
+        ];
+    
+        return(
+            <>
+        <PageAbout title="SPEAKER DETAIL" sectionItem={sectionItem} />
         <SpeakerDesSection />
         <Newsletter />
         <Map />

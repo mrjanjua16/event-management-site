@@ -14,6 +14,8 @@ import Testimonal from './pages/Testimonal';
 import Price from './pages/Price';
 import FAQ from './pages/FAQ';
 import Error from './pages/Error';
+import Schedule from "./pages/Schedule";
+import SponsorsPage from './pages/Sponsors';
 
 function App() {
   return (
@@ -48,6 +50,10 @@ function App() {
 
       <Route path='/Error' element={<Error />} />
 
+      <Route path='/Schedule' element={<Schedule />} />
+
+      <Route path='/Sponsors' element={<SponsorsPage />} />
+      
       {/* Catch-all Route for unmatched paths (optional) */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

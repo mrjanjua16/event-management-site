@@ -67,10 +67,10 @@ export default function Navbar()
           </ul>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="schedule.html">Schedule<span>/</span></Link>
+          <Link class="nav-link" to="/Schedule">Schedule<span>/</span></Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="sponsors.html">Sponsors<span>/</span></Link>
+          <Link class="nav-link" to="/Sponsors">Sponsors<span>/</span></Link>
         </li>
         <li class="nav-item dropdown">
           <Link class="nav-link" to="/" data-toggle="dropdown">News <i class="fa fa-angle-down"></i><span>/</span>

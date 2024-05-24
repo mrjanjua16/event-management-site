@@ -16,6 +16,10 @@ import FAQ from './pages/FAQ';
 import Error from './pages/Error';
 import Schedule from "./pages/Schedule";
 import SponsorsPage from './pages/Sponsors';
+import NewsWithoutSlider from "./pages/News/NewsWithoutSlider";
+import NewsWithRightSlider from './pages/News/NewsWithRightSlider';
+import NewsWithLeftSlider from './pages/News/NewsWithLeftSlider';
+
 
 function App() {
   return (
@@ -53,7 +57,13 @@ function App() {
       <Route path='/Schedule' element={<Schedule />} />
 
       <Route path='/Sponsors' element={<SponsorsPage />} />
+
+      <Route path='/NewsWithoutSlider' element={<NewsWithoutSlider />} />
       
+      <Route path='/NewsWithRightSlider' element={<NewsWithRightSlider />} />
+
+      <Route path='/NewsWithLeftSlider' element={<NewsWithLeftSlider />} />
+
       {/* Catch-all Route for unmatched paths (optional) */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

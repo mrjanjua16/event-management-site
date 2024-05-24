@@ -4,9 +4,9 @@ import Footer from "../../components/Main/Footer";
 import FooterMain from "../../components/Main/FooterMain";
 import Map from "../../components/Home1/Map";
 import PageAbout from "../../components/Main/PageAbout";
-import NewsWithoutSliderSection from "../../components/OurNews/NewsWithoutSliderSection";
+import NewsWithLeftSliderSection from "../../components/OurNews/NewsWithLeftSliderSection";
 
-export default function NewsWithoutSlider()
+export default function NewsWithLeftSlider()
 {
     const sectionItem = [
         { label: "HOME", href: "/" },
@@ -16,7 +16,7 @@ export default function NewsWithoutSlider()
         return(
         <>
         <PageAbout title="OUR NEWS" sectionItem={sectionItem} />
-        <NewsWithoutSliderSection />
+        <NewsWithLeftSliderSection />
         <Newsletter />
         <Map />
         <Footer />

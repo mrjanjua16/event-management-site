@@ -1,8 +1,11 @@
 import React from "react";
 import NewImg1 from "../../images/news/post-thumb-one.jpg";
-import NewImg2 from "../../images/news/post-thumb-one.jpg";
-import NewImg3 from "../../images/news/post-thumb-one.jpg";
-import NewImg4 from "../../images/news/post-thumb-one.jpg";
+import NewImg2 from "../../images/news/post-thumb-two.jpg";
+import NewImg3 from "../../images/news/post-thumb-three.jpg";
+import NewImg4 from "../../images/news/post-thumb-four.jpg";
+import NewImg5 from "../../images/news/post-thumb-five.jpg";
+import NewImg6 from "../../images/news/post-thumb-six.jpg";
+import NewImg7 from "../../images/news/post-thumb-seven.jpg";
 import "../../scss/style.scss";
 
 export default function NewsWithoutSliderSection()

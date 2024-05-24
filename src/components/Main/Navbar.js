@@ -79,9 +79,9 @@ export default function Navbar()
           //<!-- Dropdown list -->
             }
           <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" to="news.html">News without sidebar</Link></li>
-            <li><Link class="dropdown-item" to="news-right-sidebar.html">News with right sidebar</Link></li>
-            <li><Link class="dropdown-item" to="news-left-sidebar.html">News with left sidebar</Link></li>
+            <li><Link class="dropdown-item" to="/NewsWithoutSlider">News without sidebar</Link></li>
+            <li><Link class="dropdown-item" to="/NewsWithRightSlider">News with right sidebar</Link></li>
+            <li><Link class="dropdown-item" to="/NewsWithLeftSlider">News with left sidebar</Link></li>
             <li><Link class="dropdown-item" to="news-single.html">News Single</Link></li>
 
             <li class="dropdown dropdown-submenu dropleft">

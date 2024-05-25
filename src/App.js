@@ -19,23 +19,21 @@ import SponsorsPage from './pages/Sponsors';
 import NewsWithoutSlider from "./pages/News/NewsWithoutSlider";
 import NewsWithRightSlider from './pages/News/NewsWithRightSlider';
 import NewsWithLeftSlider from './pages/News/NewsWithLeftSlider';
+import NewsSinglePage from './pages/News/NewsSinglePage';
+import Contact from './pages/Contact';
 
 
-function App() {
+export default function App() {
   return (
   <>
     <Router>
     <Navbar />
     <Routes>
-      {/* Home Route (can be with or without exact path) */}
-      <Route path="/" element={<Home1 />} />  
-	    {/* Renders Home at exact path "/" */}
-      {/*<Route exact path="/" element={<Home />} />*/}
 
-      {/* Other Routes for different pages in your app */}
+      <Route path="/" element={<Home1 />} />  
+
       <Route path="/Home2" element={<Home2 />} />
 
-      {/* Other Routes for different pages in your app */}
       <Route path="/Speaker" element={<Speaker />} />
 
       <Route path="/About" element={<About />} />
@@ -64,12 +62,13 @@ function App() {
 
       <Route path='/NewsWithLeftSlider' element={<NewsWithLeftSlider />} />
 
-      {/* Catch-all Route for unmatched paths (optional) */}
+      <Route path='/NewsSinglePage' element={<NewsSinglePage />} />
+
+      <Route path='/Contact' element={<Contact />} />
+
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
     </Router>
 	</>
   );
 }
-
-export default App;

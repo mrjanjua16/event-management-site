@@ -73,7 +73,7 @@ export default function Navbar()
           <Link class="nav-link" to="/Sponsors">Sponsors<span>/</span></Link>
         </li>
         <li class="nav-item dropdown">
-          <Link class="nav-link" to="/" data-toggle="dropdown">News <i class="fa fa-angle-down"></i><span>/</span>
+          <Link class="nav-link" to="/NewsWithoutSlider" data-toggle="dropdown">News <i class="fa fa-angle-down"></i><span>/</span>
           </Link>
           {
           //<!-- Dropdown list -->
@@ -82,20 +82,20 @@ export default function Navbar()
             <li><Link class="dropdown-item" to="/NewsWithoutSlider">News without sidebar</Link></li>
             <li><Link class="dropdown-item" to="/NewsWithRightSlider">News with right sidebar</Link></li>
             <li><Link class="dropdown-item" to="/NewsWithLeftSlider">News with left sidebar</Link></li>
-            <li><Link class="dropdown-item" to="news-single.html">News Single</Link></li>
+            <li><Link class="dropdown-item" to="/NewsSinglePage">News Single</Link></li>
 
             <li class="dropdown dropdown-submenu dropleft">
               <Link class="dropdown-item dropdown-toggle" to="/" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
     
               <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                <li><Link class="dropdown-item" to="index.html">Submenu 01</Link></li>
-                <li><Link class="dropdown-item" to="index.html">Submenu 02</Link></li>
+                <li><Link class="dropdown-item" to="/">Submenu 01</Link></li>
+                <li><Link class="dropdown-item" to="/Home2">Submenu 02</Link></li>
               </ul>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="contact.html">Contact</Link>
+          <Link class="nav-link" to="/Contact">Contact</Link>
         </li>
       </ul>
       <Link to="contact.html" class="ticket">

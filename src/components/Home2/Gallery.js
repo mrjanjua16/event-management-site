@@ -8,6 +8,7 @@ import Gallery5 from "../../images/gallery/gallery-full-five.jpg";
 import Gallery6 from "../../images/gallery/gallery-full-six.jpg";
 import Gallery7 from "../../images/gallery/gallery-full-seven.jpg";
 import Gallery8 from "../../images/gallery/gallery-full-eight.jpg";
+import { Link } from "react-router-dom";
 
 export default function Gallery()
 {
@@ -36,7 +37,7 @@ export default function Gallery()
 				<div class="image">
 					<img src={Gallery2} alt="gallery-image" class="img-fluid" />
 					<div class="primary-overlay">
-						<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-full-popup-two.jpg"><i class="fa fa-picture-o"></i></a>
+						<a class="image-popup" data-effect="mfp-with-zoom" href={Gallery1}><i class="fa fa-picture-o"></i></a>
 					</div>
 				</div>
 			</div>

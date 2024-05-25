@@ -1,5 +1,6 @@
 import React from "react";
 import "../../scss/style.scss";
+import { Link } from "react-router-dom";
 
 export default function TicketFeature()
 {
@@ -16,7 +17,7 @@ export default function TicketFeature()
 					</div>
 					<div class="timer syotimer"><div class="syotimer__head"></div><div class="syotimer__body">
                         <p style={{fontSize: "1.2em"}}>The countdown is finished!</p></div><div class="syotimer__footer"></div></div>
-					<a href="contact.html" class="btn btn-main-md">Buy Ticket</a>
+					<Link to="/Contact" class="btn btn-main-md">Buy Ticket</Link>
 				</div>
 			</div>
 			<div class="col-lg-5 p-0">

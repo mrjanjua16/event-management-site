@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PostThumb1 from "../../images/news/post-thumb-one.jpg";
 import "../../scss/style.scss";
 
@@ -28,7 +29,7 @@ export default function EventNews()
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
@@ -52,16 +53,16 @@ export default function EventNews()
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={PostThumb1} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
@@ -85,16 +86,16 @@ export default function EventNews()
 			<div class="col-lg-4 col-md-6 m-md-auto col-sm-8 col-10 m-auto">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={PostThumb1} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">

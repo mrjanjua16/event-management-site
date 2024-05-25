@@ -6,6 +6,7 @@ import SmThumb2 from "../../images/speakers/speaker-thumb-three.jpg";
 import SmThumb3 from "../../images/speakers/speaker-thumb-three.jpg";
 import SmThumb4 from "../../images/speakers/speaker-thumb-three.jpg";
 import Post1 from "../../images/news/single-post.jpg";
+import { Link } from "react-router-dom";
 
 
 import "../../scss/style.scss";
@@ -34,15 +35,15 @@ export default function NewsSinglePageSection()
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<i class="fa fa-user-o"></i>
-										<a href="#">Admin</a>
+										<Link to="#">Admin</Link>
 									</li>
 									<li class="list-inline-item">
 										<i class="fa fa-heart-o"></i>
-										<a href="#">350</a>
+										<Link to="#">350</Link>
 									</li>
 									<li class="list-inline-item">
 										<i class="fa fa-comments-o"></i>
-										<a href="#">30</a>
+										<Link to="#">30</Link>
 									</li>
 								</ul>
 							</div>
@@ -71,13 +72,13 @@ export default function NewsSinglePageSection()
 										</p>
 										<ul class="list-inline">
 											<li class="list-inline-item">
-												<a href="#">Event,</a>
+												<Link to="#">Event,</Link>
 											</li>
 											<li class="list-inline-item">
-												<a href="#">Conference,</a>
+												<Link to="#">Conference,</Link>
 											</li>
 											<li class="list-inline-item">
-												<a href="#">Business</a>
+												<Link to="#">Business</Link>
 											</li>
 										</ul>
 									</div>
@@ -87,19 +88,19 @@ export default function NewsSinglePageSection()
 										</p>
 										<ul class="social-links-share list-inline">
 							              <li class="list-inline-item">
-							                <a href="#"><i class="fa fa-facebook"></i></a>
+							                <Link to="#"><i class="fa fa-facebook"></i></Link>
 							              </li>
 							              <li class="list-inline-item">
-							                <a href="#"><i class="fa fa-twitter"></i></a>
+							                <Link to="#"><i class="fa fa-twitter"></i></Link>
 							              </li>
 							              <li class="list-inline-item">
-							                <a href="#"><i class="fa fa-instagram"></i></a>
+							                <Link to="#"><i class="fa fa-instagram"></i></Link>
 							              </li>
 							              <li class="list-inline-item">
-							                <a href="#"><i class="fa fa-rss"></i></a>
+							                <Link to="#"><i class="fa fa-rss"></i></Link>
 							              </li>
 							              <li class="list-inline-item">
-							                <a href="#"><i class="fa fa-vimeo"></i></a>
+							                <Link to="#"><i class="fa fa-vimeo"></i></Link>
 							              </li>
 							            </ul>
 									</div>
@@ -115,7 +116,7 @@ export default function NewsSinglePageSection()
 								<h6>Jessica Brown</h6>
 								<ul class="list-inline">
 									<li class="list-inline-item"><span class="fa fa-calendar"></span>Mar 20, 2016</li>
-									<li class="list-inline-item"><a href="#">Reply</a></li>
+									<li class="list-inline-item"><Link to="#">Reply</Link></li>
 								</ul>
 								<p>
 									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat. 
@@ -141,7 +142,7 @@ export default function NewsSinglePageSection()
 								<h6>Adam Smith</h6>
 								<ul class="list-inline">
 									<li class="list-inline-item"><span class="fa fa-calendar"></span>Mar 20, 2016</li>
-									<li class="list-inline-item"><a href="#">Reply</a></li>
+									<li class="list-inline-item"><Link to="#">Reply</Link></li>
 								</ul>
 								<p>
 									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat. 
@@ -179,11 +180,11 @@ export default function NewsSinglePageSection()
 					<div class="widget category">
 						<h5 class="widget-header">Categories</h5>
 						<ul class="category-list m-0 p-0">
-							<li><a href="">Strategy Planning <span class="float-right">(6)</span></a></li>
-							<li><a href="">Corporate Identity <span class="float-right">(9)</span></a></li>
-							<li><a href="">Brand Creation<span class="float-right">(3)</span></a></li>
-							<li><a href="">Entertainment<span class="float-right">(5)</span></a></li>
-							<li><a href="">Conference<span class="float-right">(7)</span></a></li>
+							<li><Link to="">Strategy Planning <span class="float-right">(6)</span></Link></li>
+							<li><Link to="">Corporate Identity <span class="float-right">(9)</span></Link></li>
+							<li><Link to="">Brand Creation<span class="float-right">(3)</span></Link></li>
+							<li><Link to="">Entertainment<span class="float-right">(5)</span></Link></li>
+							<li><Link to="">Conference<span class="float-right">(7)</span></Link></li>
 						</ul>
 					</div>
 					<div class="widget latest-post">
@@ -191,7 +192,7 @@ export default function NewsSinglePageSection()
 						<div class="media">
 							<img src={SmThumb3} class="img-fluid" alt="post-thumb" />
 							<div class="media-body">
-								<h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
+								<h6><Link to="">Nam hendrerit eros in ligula suscipit suscipit</Link></h6>
 								<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
 							</div>
 						</div>
@@ -199,7 +200,7 @@ export default function NewsSinglePageSection()
 						<div class="media">
 							<img src={SmThumb2} class="img-fluid" alt="post-thumb" />
 							<div class="media-body">
-								<h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
+								<h6><Link to="">Nam hendrerit eros in ligula suscipit suscipit</Link></h6>
 								<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
 							</div>
 						</div>
@@ -207,7 +208,7 @@ export default function NewsSinglePageSection()
 						<div class="media">
 							<img src={SmThumb3} class="img-fluid" alt="post-thumb" />
 							<div class="media-body">
-								<h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
+								<h6><Link to="">Nam hendrerit eros in ligula suscipit suscipit</Link></h6>
 								<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
 							</div>
 						</div>
@@ -215,7 +216,7 @@ export default function NewsSinglePageSection()
 						<div class="media">
 							<img src={SmThumb4} class="img-fluid" alt="post-thumb" />
 							<div class="media-body">
-								<h6><a href="">Nam hendrerit eros in ligula suscipit suscipit</a></h6>
+								<h6><Link to="">Nam hendrerit eros in ligula suscipit suscipit</Link></h6>
 								<p href="#"><span class="fa fa-calendar"></span>02 Feb, 2017</p>
 							</div>
 						</div>
@@ -224,12 +225,12 @@ export default function NewsSinglePageSection()
 
 						<h5 class="widget-header">Popular Tags</h5>
 						<ul class="list-inline">
-							<li class="list-inline-item"><a href="#">Culture</a></li>
-							<li class="list-inline-item"><a href="#">Social</a></li>
-							<li class="list-inline-item"><a href="#">News</a></li>
-							<li class="list-inline-item"><a href="#">Events</a></li>
-							<li class="list-inline-item"><a href="#">Sports</a></li>
-							<li class="list-inline-item"><a href="#">Music</a></li>
+							<li class="list-inline-item"><Link to="#">Culture</Link></li>
+							<li class="list-inline-item"><Link to="#">Social</Link></li>
+							<li class="list-inline-item"><Link to="#">News</Link></li>
+							<li class="list-inline-item"><Link to="#">Events</Link></li>
+							<li class="list-inline-item"><Link to="#">Sports</Link></li>
+							<li class="list-inline-item"><Link to="#">Music</Link></li>
 						</ul>
 					</div>
 				</div>

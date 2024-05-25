@@ -1,6 +1,7 @@
 import PtSponsor1 from "../../images/sponsors/pt-spon-one.png";
 import GlSponsor1 from '../../images/sponsors/gl-spon-one.png';
 import "../../scss/style.scss";
+import { Link } from "react-router-dom";
 
 export default function Sponsors()
 {
@@ -25,30 +26,30 @@ export default function Sponsors()
 					<ul class="list-inline sponsors-list">
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={PtSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 					</ul>
@@ -60,29 +61,29 @@ export default function Sponsors()
 					<ul class="list-inline sponsors-list">
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 						<li class="list-inline-item">
 							<div class="image-block text-center">
-								<a href="/">
+								<Link to="/">
 									<img src={GlSponsor1} alt="sponsors-logo" class="img-fluid" />
-								</a>
+								</Link>
 							</div>
 						</li>
 					</ul>
 				</div>
 				<div class="sponsor-btn text-center">
-					<a href="/" class="btn btn-main-md">Become a sponsor</a>
+					<Link to="/" class="btn btn-main-md">Become a sponsor</Link>
 				</div>
 			</div>
 		</div>

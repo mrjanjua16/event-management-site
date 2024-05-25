@@ -1,5 +1,6 @@
 import React from "react";
 import "../../scss/style.scss";
+import { Link } from "react-router-dom";
 
 export default function MapView() {
     return (
@@ -12,7 +13,7 @@ export default function MapView() {
                             <li><i className="fa fa-home"></i><span>1201 Park Street, Fifth Avenue, Dhanmondy, Dhaka.</span></li>
                             <li><i className="fa fa-phone"></i><span>[88] 657 524 332</span></li>
                         </ul>
-                        <a href="contact.html" className="btn btn-white-md">Get Direction</a>
+                        <Link to="/Contact" className="btn btn-white-md">Get Direction</Link>
                     </div>
                 </div>
 

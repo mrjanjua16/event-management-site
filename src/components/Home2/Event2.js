@@ -1,5 +1,6 @@
 import React from "react";
 import "../../scss/style.scss";
+import { Link } from "react-router-dom";
 
 
 export default function Event2()
@@ -21,22 +22,22 @@ export default function Event2()
 				<div class="schedule-tab">
 					<ul class="nav nav-pills text-center">
 						<li class="nav-item">
-							<a class="nav-link active" href="#nov20" data-toggle="pill">
+							<Link class="nav-link active" to="" data-toggle="pill">
 								Day-01
 								<span>20 November</span>
-							</a>
+							</Link>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#nov21" data-toggle="pill">
+							<Link class="nav-link" to="" data-toggle="pill">
 								Day-02
 								<span>21 November</span>
-							</a>
+							</Link>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#nov22" data-toggle="pill">
+							<Link class="nav-link" to="" data-toggle="pill">
 								Day-03
 								<span>22 November</span>
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

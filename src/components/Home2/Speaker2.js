@@ -5,6 +5,7 @@ import SpeakerImage2 from "../../images/speakers/speaker-full-two.jpg";
 import "../../scss/style.scss";
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure Font Awesome CSS is imported
 import { PrevArrow, NextArrow } from "./SliderArrows"; // Import custom arrow components
+import { Link } from "react-router-dom";
 
 export default function Speaker2() {
   const settings = {
@@ -33,14 +34,14 @@ export default function Speaker2() {
                 <i className="fa fa-facebook"></i>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-linkedin"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -55,14 +56,14 @@ export default function Speaker2() {
                 <i className="fa fa-facebook"></i>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-linkedin"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -77,14 +78,14 @@ export default function Speaker2() {
                 <i className="fa fa-facebook"></i>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-linkedin"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -99,14 +100,14 @@ export default function Speaker2() {
                 <i className="fa fa-facebook"></i>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" tabIndex="-1">
+                <Link to="/" tabIndex="-1">
                   <i className="fa fa-linkedin"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

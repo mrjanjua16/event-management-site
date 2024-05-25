@@ -1,4 +1,5 @@
 import '../../scss/style.scss';
+import { Link } from 'react-router-dom';
 
 export default function banner1()
 {
@@ -26,7 +27,7 @@ export default function banner1()
 					{
                     // <!-- Action Button -->
                     }
-					<a href="contact.html" class="btn btn-white-md">get ticket now</a>
+					<Link to="/Contact" class="btn btn-white-md">get ticket now</Link>
 				</div>
 			</div>
 		</div>

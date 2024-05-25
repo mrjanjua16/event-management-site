@@ -3,6 +3,7 @@ import HR1 from "../../images/news/post-thumb-hr-one.jpg";
 import HR2 from "../../images/news/post-thumb-hr-two.jpg";
 import HR3 from "../../images/news/post-thumb-hr-three.jpg";
 import HR4 from "../../images/news/post-thumb-hr-four.jpg";
+import { Link } from "react-router-dom";
 
 export default function EventNews()
 {
@@ -22,13 +23,13 @@ export default function EventNews()
 			<div class="col-lg-6 col-md-6">
 				<article class="news-post-hr">
 					<div class="post-thumb">
-						<a href="/">
+						<Link to="/">
 							<img src={HR1} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-contents border-top">
 						<div class="post-title">
-							<h6><a href="/">Default title here</a></h6>
+							<h6><Link to="/">Default title here</Link></h6>
 						</div>
 						<div class="post-exerpts">
 							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
@@ -39,7 +40,7 @@ export default function EventNews()
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="more">
-							<a href="/">Show more</a>
+							<Link to="/">Show more</Link>
 						</div>
 					</div>
 				</article>
@@ -47,13 +48,13 @@ export default function EventNews()
 			<div class="col-lg-6 col-md-6">
 				<article class="news-post-hr">
 					<div class="post-thumb">
-						<a href="/">
+						<Link to="/">
 							<img src={HR2} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-contents border-top">
 						<div class="post-title">
-							<h6><a href="/">Default title here</a></h6>
+							<h6><Link to="/">Default title here</Link></h6>
 						</div>
 						<div class="post-exerpts">
 							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
@@ -64,7 +65,7 @@ export default function EventNews()
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="more">
-							<a href="/">Show more</a>
+							<Link to="/">Show more</Link>
 						</div>
 					</div>
 				</article>
@@ -72,13 +73,13 @@ export default function EventNews()
 			<div class="col-lg-6 col-md-6">
 				<article class="news-post-hr">
 					<div class="post-thumb">
-						<a href="/">
+						<Link to="/">
 							<img src={HR3} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-contents">
 						<div class="post-title">
-							<h6><a href="/">Default title here</a></h6>
+							<h6><Link to="/">Default title here</Link></h6>
 						</div>
 						<div class="post-exerpts">
 							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
@@ -89,7 +90,7 @@ export default function EventNews()
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="more">
-							<a href="/">Show more</a>
+							<Link to="/">Show more</Link>
 						</div>
 					</div>
 				</article>
@@ -97,13 +98,13 @@ export default function EventNews()
 			<div class="col-lg-6 col-md-6">
 				<article class="news-post-hr">
 					<div class="post-thumb">
-						<a href="/">
+						<Link to="/">
 							<img src={HR4} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-contents">
 						<div class="post-title">
-							<h6><a href="/">Default title here</a></h6>
+							<h6><Link to="/">Default title here</Link></h6>
 						</div>
 						<div class="post-exerpts">
 							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed doeiuse tempor incididunt ut
@@ -114,7 +115,7 @@ export default function EventNews()
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="more">
-							<a href="/">Show more</a>
+							<Link to="/">Show more</Link>
 						</div>
 					</div>
 				</article>

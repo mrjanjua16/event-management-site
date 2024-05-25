@@ -12,7 +12,7 @@ export default function GallerySection()
 					<h3>Our Gallery</h3>
 				</div>
 				<ol class="breadcrumb justify-content-center p-0 m-0">
-				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				  <li class="breadcrumb-item"><Link to="/">Home</Link></li>
 				  <li class="breadcrumb-item active">Our Gallery</li>
 				</ol>
 			</div>

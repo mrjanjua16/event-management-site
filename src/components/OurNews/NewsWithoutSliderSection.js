@@ -7,6 +7,7 @@ import NewImg5 from "../../images/news/post-thumb-five.jpg";
 import NewImg6 from "../../images/news/post-thumb-six.jpg";
 import NewImg7 from "../../images/news/post-thumb-seven.jpg";
 import "../../scss/style.scss";
+import { Link } from "react-router-dom";
 
 export default function NewsWithoutSliderSection()
 {
@@ -18,30 +19,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg1} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -51,30 +52,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg2} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -84,30 +85,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg3} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -117,30 +118,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg4} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -150,30 +151,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg5} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -183,30 +184,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src="images/news/post-thumb-six.jpg" alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -216,30 +217,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg5} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -249,30 +250,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg6} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -282,30 +283,30 @@ export default function NewsWithoutSliderSection()
 			<div class="col-lg-4 col-md-6 col-sm-8">
 				<div class="blog-post">
 					<div class="post-thumb">
-						<a href="news-single.html">
+						<Link to="/NewsSinglePage">
 							<img src={NewImg7} alt="post-image" class="img-fluid" />
-						</a>
+						</Link>
 					</div>
 					<div class="post-content">
 						<div class="date">
 							<h4>20<span>May</span></h4>
 						</div>
 						<div class="post-title">
-							<h2><a href="news-single.html">Elementum purus id ultrices.</a></h2>
+							<h2><Link to="/NewsSinglePage">Elementum purus id ultrices.</Link></h2>
 						</div>
 						<div class="post-meta">
 							<ul class="list-inline">
 								<li class="list-inline-item">
 									<i class="fa fa-user-o"></i>
-									<a href="#">Admin</a>
+									<Link to="/">Admin</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-heart-o"></i>
-									<a href="#">350</a>
+									<Link to="/">350</Link>
 								</li>
 								<li class="list-inline-item">
 									<i class="fa fa-comments-o"></i>
-									<a href="#">30</a>
+									<Link to="/">30</Link>
 								</li>
 							</ul>
 						</div>
@@ -316,19 +317,19 @@ export default function NewsWithoutSliderSection()
 				<nav class="d-flex justify-content-center">
 				  <ul class="pagination">
 				  	<li class="page-item">
-				      <a class="page-link" href="#" aria-label="prev">
+				      <Link class="page-link" href="/" aria-label="prev">
 				        <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
 				        <span class="sr-only">prev</span>
-				      </a>
+				      </Link>
 				    </li>
-				    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-				    <li class="page-item"><a class="page-link" href="#">2</a></li>
-				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item active"><Link class="page-link" href="/">1</Link></li>
+				    <li class="page-item"><Link class="page-link" href="/">2</Link></li>
+				    <li class="page-item"><Link class="page-link" href="/">3</Link></li>
 				    <li class="page-item">
-				      <a class="page-link" href="#" aria-label="Next">
+				      <Link class="page-link" href="/" aria-label="Next">
 				        <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
 				        <span class="sr-only">Next</span>
-				      </a>
+				      </Link>
 				    </li>
 				  </ul>
 				</nav>

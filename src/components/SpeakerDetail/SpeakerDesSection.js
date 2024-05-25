@@ -1,6 +1,7 @@
 import React from "react";
 import "../../scss/style.scss";
 import SingleSpeaker from "../../images/speakers/single-speaker.jpg";
+import { Link } from "react-router-dom";
 
 export default function SpeakerDesSection()
 {
@@ -36,19 +37,19 @@ export default function SpeakerDesSection()
 							<h5>Social Profiles</h5>
 							<ul class="list-inline social-list">
 								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<Link to="/"><i class="fa fa-twitter"></i></Link>
 								</li>
 								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<Link to="/"><i class="fa fa-linkedin"></i></Link>
 								</li>
 								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<Link to="/"><i class="fa fa-facebook"></i></Link>
 								</li>
 								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-skype"></i></a>
+									<Link to="/"><i class="fa fa-skype"></i></Link>
 								</li>
 								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-pinterest-p"></i></a>
+									<Link to="/"><i class="fa fa-pinterest-p"></i></Link>
 								</li>
 							</ul>
 						</div>

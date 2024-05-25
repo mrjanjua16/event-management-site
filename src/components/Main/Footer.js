@@ -1,5 +1,6 @@
 import "../../scss/style.scss";
 import footer from "../../images/footer-logo.png";
+import { Link } from "react-router-dom";
 
 export default function Footer()
 {
@@ -15,19 +16,19 @@ export default function Footer()
           </div>
           <ul class="social-links-footer list-inline">
             <li class="list-inline-item">
-              <a href="/"><i class="fa fa-facebook"></i></a>
+              <Link to="/"><i class="fa fa-facebook"></i></Link>
             </li>
             <li class="list-inline-item">
-              <a href="/"><i class="fa fa-twitter"></i></a>
+              <Link to="/"><i class="fa fa-twitter"></i></Link>
             </li>
             <li class="list-inline-item">
-              <a href="/"><i class="fa fa-instagram"></i></a>
+              <Link to="/"><i class="fa fa-instagram"></i></Link>
             </li>
             <li class="list-inline-item">
-              <a href="/"><i class="fa fa-rss"></i></a>
+              <Link to="/"><i class="fa fa-rss"></i></Link>
             </li>
             <li class="list-inline-item">
-              <a href="/"><i class="fa fa-vimeo"></i></a>
+              <Link to="/"><i class="fa fa-vimeo"></i></Link>
             </li>
           </ul>
         </div>

@@ -1,3 +1,4 @@
+@import "./variables.scss";
 // Google Font Import
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
 // font size
@@ -41,7 +42,7 @@ h6{
 	font-size: 1.25rem; //20px
 }
 // Others 
-p, a, li, blockquote, label{
+p, link, li, blockquote, label{
 	font-size: 1rem;
 	line-height: 26px;
 	color: $text-color;

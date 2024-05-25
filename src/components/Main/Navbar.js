@@ -1,9 +1,10 @@
 import '../../scss/components/_navigation.scss';
 import '../../scss/components/_common.scss';
+import "../../scss/_typography.scss";
+import '../../scss/button.scss';
 import '../../Plugins/bootstrap/bootstrap.min.css';
 import logo from '../../images/logo.png';
 import ticket from '../../images/icon/ticket.png';
-import '../../scss/button.scss';
 import { Link } from 'react-router-dom';
 
 
@@ -98,7 +99,7 @@ export default function Navbar()
           <Link class="nav-link" to="/Contact">Contact</Link>
         </li>
       </ul>
-      <Link to="contact.html" class="ticket">
+      <Link to="/Contact" class="ticket">
         <img src={ticket} alt="ticket" />
         <span>Buy Ticket</span>
       </Link>
@@ -106,5 +107,5 @@ export default function Navbar()
   </div>
 </nav>
 </>
-)
+);
 }

@@ -78,11 +78,11 @@
     vertical-align:baseline}
     sub{bottom:-.25em}
     sup{top:-.5em}
-    a{color:#007bff;
+    a{color:#fff;
     text-decoration:none;
     background-color:transparent}
     a:hover{color:#0056b3;
-    text-decoration:underline}
+    text-decoration:none}
     a:not([href]):not([class]){color:inherit;
     text-decoration:none}
     a:not([href]):not([class]):hover{color:inherit;
@@ -1135,7 +1135,7 @@
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
-    background-color:transparent;
+    
     border:1px solid transparent;
     padding:.375rem .75rem;
     font-size:1rem;

@@ -1,4 +1,4 @@
-import "../../scss/style.scss";
+
 import '../../scss/components/_navigation.scss';
 import '../../scss/components/_common.scss';
 import "../../scss/_typography.scss";

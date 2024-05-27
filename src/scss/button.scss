@@ -9,7 +9,7 @@
 .btn-main{
     padding: 25px 45px;
     border-radius: 3px;
-	background: $primary-color;
+	background: #ff6600;
     color: $light;
     outline: none;
     &:hover{
@@ -24,13 +24,13 @@
 .btn-main-md{
     padding: 15px 40px;
     border-radius: 0;
-    background: $primary-color;
+    background: #ff6600;
     color: $light;
     outline: none;
     font-size: 0.9375rem;
     &:hover{
         color: $light;
-        background: darken($primary-color, 5);
+        background: darken(#ff6600, 5);
     }
     &:focus{
         color: $light;
@@ -47,8 +47,8 @@
     border: 1px solid $border-color;
     border-radius: 0;
     &:hover{
-        background: $primary-color;
-        border-color: $primary-color;
+        background: #ff6600;
+        border-color: #ff6600;
         color: $light;
     }
 }
@@ -56,7 +56,7 @@
 .btn-main-sm{
     padding: 15px 35px;
     border-radius: 3px;
-    background: $primary-color;
+    background: #ff6600;
     color: $light;
     outline: none;
     font-size: 14px;
@@ -75,7 +75,7 @@
     padding: 15px 40px;
     border-radius: 0;
     &:hover{
-        background: $primary-color;
+        background: #ff6600;
         color: $light;
     }
 }

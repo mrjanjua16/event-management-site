@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../scss/style.scss";
 
 export default function Map()
@@ -1900,65 +1901,6 @@ export default function Map()
           </div>
         </div>
       </div>
-      <div
-        style={{
-          backgroundColor: "white",
-          fontWeight: 500,
-          fontFamily: "Roboto, sans-serif",
-          padding: "15px 25px",
-          boxSizing: "border-box",
-          top: 5,
-          border: "1px solid rgba(0, 0, 0, 0.12)",
-          borderRadius: 5,
-          left: "50%",
-          maxWidth: 375,
-          position: "absolute",
-          transform: "translateX(-50%)",
-          width: "calc(100% - 10px)",
-          zIndex: 1
-        }}
-      >
-        <div>
-          <img
-            alt=""
-            src="https://maps.gstatic.com/mapfiles/api-3/images/google_gray.svg"
-            draggable="false"
-            style={{
-              padding: 0,
-              margin: 0,
-              border: 0,
-              height: 17,
-              verticalAlign: "middle",
-              width: 52,
-              userSelect: "none"
-            }}
-          />
-        </div>
-        <div style={{ lineHeight: 20, margin: "15px 0px" }}>
-          <span style={{ color: "rgba(0, 0, 0, 0.87)", fontSize: 14 }}>
-            This page can't load Google Maps correctly.
-          </span>
-        </div>
-        <table style={{ width: "100%" }}>
-          <tbody>
-            <tr>
-              <td style={{ lineHeight: 16, verticalAlign: "middle" }}>
-                <a
-                  href="http://g.co/dev/maps-no-account"
-                  target="_blank"
-                  rel="noopener"
-                  style={{ color: "rgba(0, 0, 0, 0.54)", fontSize: 12 }}
-                >
-                  Do you own this website?
-                </a>
-              </td>
-              <td style={{ textAlign: "right" }}>
-                <button className="dismissButton">OK</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
     <div className="address-block">
       <h4>Docklands Convention</h4>
@@ -1975,9 +1917,9 @@ export default function Map()
           <span>[00] 000 000 000</span>
         </li>
       </ul>
-      <a href="#" className="btn btn-white-md">
+      <Link to="/Contact" className="btn btn-white-md">
         Get Direction
-      </a>
+      </Link>
     </div>
   </section>
 </>

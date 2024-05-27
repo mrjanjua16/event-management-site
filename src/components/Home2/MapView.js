@@ -2716,9 +2716,9 @@ export default function MapView() {
         <span>[88] 657 524 332</span>
       </li>
     </ul>
-    <a href="contact.html" className="btn btn-white-md">
+    <Link href="/Contact" className="btn2 btn-white-md">
       Get Direction
-    </a>
+    </Link>
   </div>
   <div className="register overlay-dark bg-registration-two">
     <div className="block">

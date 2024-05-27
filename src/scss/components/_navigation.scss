@@ -8,6 +8,12 @@
 		position: relative;
 	}
 
+	.ticket {
+		background: #ff6600;
+		display: block;
+		padding: 34px 32px;
+	}
+
 	.navbar-brand {
 		padding: 35px 40px 35px 50px;
 		border-right: 1px solid $border-color;

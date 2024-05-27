@@ -26,7 +26,7 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
   <>
-    <Router>
+    <Router basename='/reacttask'>
     <Navbar />
     <Routes>
 

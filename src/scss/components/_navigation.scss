@@ -1,199 +1,343 @@
 @import '../variables.scss';
-@import '../media-queries';
 
+/*=== MEDIA QUERY MIXINS ===*/
+@mixin mobile-xs {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin desktop-sm {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin desktop-nav {
+  @media (max-width: 1352px) {
+    @content;
+  }
+}
+
+/*=== NAVIGATION STYLES ===*/
 .main-nav {
-	background: $light;
+  background: $light;
+  display: flex;
+  justify-content: space-between; /* Ensures items are spaced out */
 
-	@include tablet {
-		position: relative;
-	}
+  @include tablet {
+    position: relative;
+  }
 
-	.ticket {
-		background: #ff6600;
-		display: block;
-		padding: 34px 32px;
-	}
+  .ticket {
+    background: #ff6600;
+    display: block;
+    padding: 34px 60px;
+    margin-left: auto; /* Aligns the button to the right */
 
-	.navbar-brand {
-		padding: 35px 40px 35px 50px;
-		border-right: 1px solid $border-color;
+    @include desktop-nav {
+      padding: 34px 26px;
+    }
 
-		@include large-desktop {
-			padding: 20px 30px;
-		}
+    @include large-desktop {
+      padding: 23px 26px;
+    }
 
-		@include tablet {
-			border-right: none;
-		}
-	}
+    @include desktop-sm {
+      text-align: center;
+    }
+  }
 
-	.navbar-toggler {
-		font-size: 1.5rem;
-		margin-right: 15px;
-	}
+  .navbar-brand {
+    padding: 35px 40px 35px 50px;
+    border-right: 1px solid $border-color;
 
-	.navbar-nav {
-		.nav-item {
-			position: relative;
-			font-family: $primary-font;
+    @include large-desktop {
+      padding: 20px 30px;
+    }
 
-			.nav-link {
-				position: relative;
-				text-align: center;
-				color: $black;
-				padding-left: 5px;
-				padding-right: 17px;
-				padding-top: 1.2rem;
-				padding-bottom: 1.2rem;
-				font-size: 1.06rem;
-				font-family: $secondary-font;
+    @include tablet {
+      border-right: none;
+    }
+  }
 
-				@include desktop-nav {
-					font-size: 0.86rem;
-					padding-right: 10px;
-				}
+  .navbar-toggler {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    display: block; /* Ensures the toggler is displayed */
+    border: none;
+    background: none;
+    outline: none;
 
-				@include large-desktop {
-					padding-left: 4px;
-					padding-right: 10px;
-				}
+    @include tablet {
+      display: block; /* Make sure it's visible on tablet and smaller screens */
+    }
+  }
 
-				@include desktop-sm {
-					padding-top: 0.5rem;
-					padding-bottom: 0.5rem;
-				}
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml;charset=UTF8,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
 
-				span {
-					color: $black;
-					margin-left: 16px;
+  .navbar-nav {
+    display: flex; /* Ensures nav items are displayed inline */
+    @include tablet {
+      flex-direction: column; /* Stacks items vertically on smaller screens */
+      width: 100%; /* Full width on smaller screens */
+    }
 
-					@include large-desktop {
-						margin-left: 14px;
-					}
+    .nav-item {
+      position: relative;
+      font-family: $primary-font;
 
-					@include desktop {
-						margin-left: 10px;
-					}
-					@include desktop-sm {
-						display: none;
-					}
-				}
-			}
+      .nav-link {
+        position: relative;
+        text-align: center;
+        color: $black;
+        padding-left: 5px;
+        padding-right: 17px;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        font-size: 1.06rem;
+        font-family: $secondary-font;
 
-			&:hover,
-			&.active {
-				.nav-link {
-					color: $primary-color;
-				}
-			}
-		}
-	}
+        @include desktop-nav {
+          font-size: 0.86rem;
+          padding-right: 10px;
+        }
 
-	.dropdown {
-		position: relative;
+        @include large-desktop {
+          padding-left: 4px;
+          padding-right: 10px;
+        }
 
-		.open>a,
-		.open>a:focus,
-		.open>a:hover {
-			background: transparent;
-		}
+        @include desktop-sm {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+        }
 
-		&.full-width {
-			.dropdown-menu {
-				left: 0 !important;
-				right: 0 !important;
-			}
-		}
+        span {
+          color: $black;
+          margin-left: 16px;
 
-		.dropdown-menu {
-			min-width: 220px;
-			margin: 0;
-			padding: 0;
-			border-radius: 0;
-			border: 0;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          @include large-desktop {
+            margin-left: 14px;
+          }
 
-			li:not(:last-child) {
-				.dropdown-item {
-					border-bottom: 1px solid $border-color;
+          @include desktop {
+            margin-left: 10px;
+          }
 
-					@include desktop-sm {
-						border: 0;
-					}
-				}
-			}
+          @include desktop-sm {
+            display: none;
+          }
+        }
+      }
 
-			.dropdown-item {
-				font-size: 15px;
-				padding: 10px 16px;
-				transition: .3s ease;
+      &:hover,
+      &.active {
+        .nav-link {
+          color: $primary-color;
+        }
+      }
+    }
+  }
 
-				&:hover {
-					background: $light;
-					color: $primary-color;
-				}
-			}
+  .dropdown {
+    position: relative;
 
-			@include desktop-sm {
-				transform: none;
-				left: auto;
-				position: relative;
-				text-align: center;
-				opacity: 1;
-				visibility: visible;
-				background: rgb(243, 243, 243);
-			}
-		}
+    .open > a,
+    .open > a:focus,
+    .open > a:hover {
+      background: transparent;
+    }
 
-		@media(min-width:992px) {
-			.dropdown-menu {
-				transition: .3s all;
-				position: absolute;
-				display: block;
-				opacity: 0;
-				visibility: hidden;
-				transform: translateY(30px);
-			}
+    &.full-width {
+      .dropdown-menu {
+        left: 0 !important;
+        right: 0 !important;
+      }
+    }
 
-			&:hover>.dropdown-menu {
-				border-top: 3px solid $primary-color;
-				opacity: 1;
-				display: block;
-				visibility: visible;
-				color: #777;
-				transform: translateY(0);
-			}
+    .dropdown-menu {
+      min-width: 220px;
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      border: 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
-			.dropleft .dropdown-menu {
-				right: 100%;
-			}
-		}
-	}
+      li:not(:last-child) {
+        .dropdown-item {
+          border-bottom: 1px solid $border-color;
 
-	.dropleft .dropdown-menu,
-	.dropright .dropdown-menu {
-		margin: 0;
-	}
+          @include desktop-sm {
+            border: 0;
+          }
+        }
+      }
 
-	.dropleft .dropdown-menu {
-		right: 0;
-	}
+      .dropdown-item {
+        font-size: 15px;
+        padding: 10px 16px;
+        transition: .3s ease;
 
-	.dropleft .dropdown-toggle::before,
-	.dropright .dropdown-toggle::after {
-		font-weight: bold;
-		font-family: 'FontAwesome';
-		border: 0;
-		font-size: 14px;
-		vertical-align: 1px;
-	}
+        &:hover {
+          background: $light;
+          color: $primary-color;
+        }
+      }
 
-	.dropleft .dropdown-toggle::before {
-		content: "\f104";
-		margin-right: 7px;
-	}
+      @include desktop-sm {
+        transform: none;
+        left: auto;
+        position: relative;
+        text-align: center;
+        opacity: 1;
+        visibility: visible;
+        background: rgb(243, 243, 243);
+      }
+    }
 
-	.dropright .dropdown-toggle::after {
-		content: "\f105";
-	}
+    @media (min-width: 992px) {
+      .dropdown-menu {
+        transition: .3s all;
+        position: absolute;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(30px);
+      }
+
+      &:hover > .dropdown-menu {
+        border-top: 3px solid $primary-color;
+        opacity: 1;
+        display: block;
+        visibility: visible;
+        color: #777;
+        transform: translateY(0);
+      }
+
+      .dropleft .dropdown-menu {
+        right: 100%;
+      }
+    }
+  }
+
+  .dropleft .dropdown-menu,
+  .dropright .dropdown-menu {
+    margin: 0;
+  }
+
+  .dropleft .dropdown-menu {
+    right: 0;
+  }
+
+  .dropleft .dropdown-toggle::before,
+  .dropright .dropdown-toggle::after {
+    font-weight: bold;
+    font-family: 'FontAwesome';
+    border: 0;
+    font-size: 14px;
+    vertical-align: 1px;
+  }
+
+  .dropleft .dropdown-toggle::before {
+    content: "\f104";
+    margin-right: 7px;
+  }
+
+  .dropright .dropdown-toggle::after {
+    content: "\f105";
+  }
+
+  /* Remove the extra slash and fix dropdown icon positioning */
+  .dropdown-toggle::after {
+    display: none; /* Hide default dropdown arrow */
+  }
+
+  .dropdown-toggle {
+    &::after {
+      font-family: 'FontAwesome';
+      content: "\f107"; /* Down arrow */
+      margin-left: 5px;
+    }
+  }
+
+  .dropright .dropdown-toggle::after {
+    display: block; /* Re-enable for dropright */
+  }
+
+  .dropleft .dropdown-toggle::before {
+    display: block; /* Re-enable for dropleft */
+  }
+
+  /* Mobile menu styles */
+  @include mobile {
+    .navbar-nav {
+      display: none; /* Hide nav items by default */
+      &.show {
+        display: flex; /* Show nav items when toggled */
+        flex-direction: column;
+      }
+    }
+
+    .dropdown-menu {
+      position: static;
+      float: none;
+      @include desktop-sm {
+        transform: none;
+        left: auto;
+        position: relative;
+        text-align: center;
+        opacity: 1;
+        visibility: visible;
+        background: rgb(243, 243, 243);
+      }
+    }
+
+    .dropdown-menu.show {
+      display: block;
+    }
+
+    .dropdown-toggle {
+      &::after {
+        display: none; /* Hide default dropdown arrow on small screens */
+      }
+    }
+
+    .dropdown-toggle.collapsed::after {
+      display: inline-block; /* Show the custom arrow on collapsed state */
+    }
+  }
 }

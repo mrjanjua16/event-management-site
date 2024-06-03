@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reacttask/static/css/main.0c5a4e09.css",
-    "main.js": "/reacttask/static/js/main.6146d868.js",
+    "main.css": "/reacttask/static/css/main.02a4b0ce.css",
+    "main.js": "/reacttask/static/js/main.531efceb.js",
     "static/js/453.9a40e86d.chunk.js": "/reacttask/static/js/453.9a40e86d.chunk.js",
     "static/media/banner-bg-two.jpg": "/reacttask/static/media/banner-bg-two.0a59250fc1202495a88b.jpg",
     "static/media/fa-solid-900.ttf": "/reacttask/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -64,12 +64,12 @@
     "static/media/schedule-bg.png": "/reacttask/static/media/schedule-bg.49bd1c652aefdf6add69.png",
     "static/media/fa-v4compatibility.woff2": "/reacttask/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/reacttask/index.html",
-    "main.0c5a4e09.css.map": "/reacttask/static/css/main.0c5a4e09.css.map",
-    "main.6146d868.js.map": "/reacttask/static/js/main.6146d868.js.map",
+    "main.02a4b0ce.css.map": "/reacttask/static/css/main.02a4b0ce.css.map",
+    "main.531efceb.js.map": "/reacttask/static/js/main.531efceb.js.map",
     "453.9a40e86d.chunk.js.map": "/reacttask/static/js/453.9a40e86d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c5a4e09.css",
-    "static/js/main.6146d868.js"
+    "static/css/main.02a4b0ce.css",
+    "static/js/main.531efceb.js"
   ]
 }

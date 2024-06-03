@@ -1,5 +1,5 @@
 import React from "react";
-import '../../scss/style.scss';
+import "../../scss/pages/_speaker.scss";
 import speaker1 from '../../images/speakers/speaker-one.jpg';
 import speaker2 from '../../images/speakers/speaker-two.jpg';
 import speaker3 from '../../images/speakers/speaker-three.jpg';
@@ -7,6 +7,8 @@ import speaker4 from '../../images/speakers/speaker-four.jpg';
 import speaker5 from '../../images/speakers/speaker-five.jpg';
 import speaker6 from '../../images/speakers/speaker-six.jpg';
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareFacebook, faSquareTwitter, faLinkedin, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 export default function Speakers()
 {
@@ -29,10 +31,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -49,10 +51,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -69,10 +71,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -89,10 +91,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -109,10 +111,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -129,10 +131,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -149,10 +151,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>
@@ -169,10 +171,10 @@ export default function Speakers()
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-facebook"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-twitter"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-linkedin"></i></Link></li>
-								<li class="list-inline-item"><Link to="/"><i class="fa fa-pinterest"></i></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link></li>
+								<li class="list-inline-item"><Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link></li>
 							</ul>
 						</div>
 					</div>

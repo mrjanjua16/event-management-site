@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function FooterMain()
 {
+  const scrolToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth'});
+  }
+
     return(
         <>
 <footer class="subfooter">
@@ -14,7 +18,7 @@ export default function FooterMain()
         </div>
       </div>
       <div class="col-md-6">
-        <Link to="/" class="to-top"><i class="fa fa-angle-up"></i></Link>
+        <Link to="#" onClick={scrolToTop} class="to-top"><i class="fa fa-angle-up"></i></Link>
       </div>
     </div>
   </div>

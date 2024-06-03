@@ -283,6 +283,10 @@ ul.pagination{
 .sidebar{
 	padding: 0 20px;
 }
+
+.a{
+	color: $black;
+}
 .widget{
 	.widget-header{
 		font-weight: 400;
@@ -323,6 +327,7 @@ ul.pagination{
 					font-size: 15px;
 					letter-spacing: 0;
 					display: block;
+					color: $black;
 					&:hover{
 						color: $primary-color;
 					}
@@ -342,6 +347,7 @@ ul.pagination{
 					border: 1px solid $border-color;
 					margin-bottom: 15px;
 					font-size: 15px;
+					color: #000;
 					&:hover{
 						background: $primary-color;
 						color: $light;

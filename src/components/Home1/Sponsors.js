@@ -1,4 +1,4 @@
-import PtSponsor1 from "../../images/sponsors/pt-spon-one.png";
+import PtSponsor1 from "../../images/sponsors/pt-spon-two.png";
 import GlSponsor1 from '../../images/sponsors/gl-spon-one.png';
 import "../../scss/style.scss";
 import { Link } from "react-router-dom";

@@ -2,6 +2,8 @@ import React from "react";
 import "../../scss/style.scss";
 import SingleSpeaker from "../../images/speakers/single-speaker.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareFacebook, faSquareTwitter, faLinkedin, faPinterest, faSkype} from '@fortawesome/free-brands-svg-icons';
 
 export default function SpeakerDesSection()
 {
@@ -37,19 +39,19 @@ export default function SpeakerDesSection()
 							<h5>Social Profiles</h5>
 							<ul class="list-inline social-list">
 								<li class="list-inline-item">
-									<Link to="/"><i class="fa fa-twitter"></i></Link>
+									<Link to="/"><FontAwesomeIcon class="fa fa-facebook" icon={faSquareFacebook}></FontAwesomeIcon></Link>
 								</li>
 								<li class="list-inline-item">
-									<Link to="/"><i class="fa fa-linkedin"></i></Link>
+									<Link to="/"><FontAwesomeIcon class="fa fa-skype" icon={faSkype}></FontAwesomeIcon></Link>
 								</li>
 								<li class="list-inline-item">
-									<Link to="/"><i class="fa fa-facebook"></i></Link>
+									<Link to="/"><FontAwesomeIcon class="fa fa-twitter" icon={faSquareTwitter}></FontAwesomeIcon></Link>
 								</li>
 								<li class="list-inline-item">
-									<Link to="/"><i class="fa fa-skype"></i></Link>
+									<Link to="/"><FontAwesomeIcon class="fa fa-linkedin" icon={faLinkedin}></FontAwesomeIcon></Link>
 								</li>
 								<li class="list-inline-item">
-									<Link to="/"><i class="fa fa-pinterest-p"></i></Link>
+									<Link to="/"><FontAwesomeIcon class="fa fa-pinterest" icon={faPinterest}></FontAwesomeIcon></Link>
 								</li>
 							</ul>
 						</div>

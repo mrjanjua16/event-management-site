@@ -3,9 +3,10 @@ import Slider from "react-slick";
 import SpeakerImage1 from "../../images/speakers/speaker-full-one.jpg";
 import SpeakerImage2 from "../../images/speakers/speaker-full-two.jpg";
 import "../../scss/style.scss";
-import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure Font Awesome CSS is imported
 import { PrevArrow, NextArrow } from "./SliderArrows"; // Import custom arrow components
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareFacebook, faSquareTwitter, faLinkedin, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 export default function Speaker2() {
   const settings = {
@@ -31,16 +32,23 @@ export default function Speaker2() {
             <p>CEO Rancom Motor</p>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-facebook"></i>
-              </li>
-              <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-twitter"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-linkedin"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareTwitter} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faPinterest} />
                 </Link>
               </li>
             </ul>
@@ -53,16 +61,23 @@ export default function Speaker2() {
             <p>CTO Tech Innovations</p>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-facebook"></i>
-              </li>
-              <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-twitter"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-linkedin"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareTwitter} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faPinterest} />
                 </Link>
               </li>
             </ul>
@@ -75,16 +90,23 @@ export default function Speaker2() {
             <p>CMO Creative Agency</p>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-facebook"></i>
-              </li>
-              <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-twitter"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-linkedin"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareTwitter} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faPinterest} />
                 </Link>
               </li>
             </ul>
@@ -97,16 +119,23 @@ export default function Speaker2() {
             <p>COO Business Corp</p>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-facebook"></i>
-              </li>
-              <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-twitter"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/" tabIndex="-1">
-                  <i className="fa fa-linkedin"></i>
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faSquareTwitter} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+              </li>
+              <li className="list-inline-item">
+                <Link to="#" tabIndex="-1">
+                  <FontAwesomeIcon icon={faPinterest} />
                 </Link>
               </li>
             </ul>

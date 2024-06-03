@@ -185,7 +185,7 @@ export default function NewsWithoutSliderSection()
 				<div class="blog-post">
 					<div class="post-thumb">
 						<Link to="/NewsSinglePage">
-							<img src="images/news/post-thumb-six.jpg" alt="post-image" class="img-fluid" />
+							<img src={NewImg6} alt="post-image" class="img-fluid" />
 						</Link>
 					</div>
 					<div class="post-content">

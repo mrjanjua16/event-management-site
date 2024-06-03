@@ -1,6 +1,6 @@
+/*=== MEDIA QUERY MIXINS ===*/
 @import '../variables.scss';
 
-/*=== MEDIA QUERY MIXINS ===*/
 @mixin mobile-xs {
   @media (max-width: 400px) {
     @content;
@@ -14,7 +14,7 @@
 }
 
 @mixin tablet {
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     @content;
   }
 }
@@ -88,7 +88,7 @@
   .navbar-toggler {
     font-size: 1.5rem;
     margin-right: 15px;
-    display: block; /* Ensures the toggler is displayed */
+    display: none; /* Hide by default */
     border: none;
     background: none;
     outline: none;

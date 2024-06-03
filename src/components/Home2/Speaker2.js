@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import SpeakerImage1 from "../../images/speakers/speaker-full-one.jpg";
 import SpeakerImage2 from "../../images/speakers/speaker-full-two.jpg";
 import "../../scss/style.scss";
+import "../../scss/slickSlider.scss";
 import { PrevArrow, NextArrow } from "./SliderArrows"; // Import custom arrow components
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -23,7 +24,11 @@ export default function Speaker2() {
   };
 
   return (
-    <div className="slider-container">
+    <section className="speakers-full-width">
+      <div className="container-fluid p-0">
+        <div className="row">
+          <div className="col-12">
+          <div className="slider-container">
       <Slider {...settings}>
         <div className="slick-slide">
           <img src={SpeakerImage1} alt="speaker" className="img-fluid" />
@@ -144,5 +149,9 @@ export default function Speaker2() {
         {/* Add more slides as needed */}
       </Slider>
     </div>
+    </div>
+    </div>
+    </div>
+    </section>
   );
 }
